@@ -80,6 +80,18 @@
     background-color: red;
 }
 
+.debug #site_footer {
+    height: 30px;
+    background-color: blueviolet;
+}
+
+.debug .reference_badge {
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: deeppink;
+}
+
 
 
 
@@ -358,16 +370,22 @@ aside img {
  ********/
 
  #site_footer {
-    height: 30px;
-    background-color: blueviolet; 
+
     margin: 0.5rem 0;    
 }
 
-.copy_badge {
-    height: 30px;
-    width: 150px;
-    margin: 0 auto;
-    background-color: deeppink;
+.reference_badge {
+  text-align: center;
+}
+
+.reference_badge > span {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#heart {
+    font-size: 30px;
+    color: red;
 }
 
 /* /Main container */
