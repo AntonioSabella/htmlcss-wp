@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Debug */
 
 .debug > header {
@@ -133,7 +137,7 @@ img {
     text-decoration: none;
     color: lightgray;
     font-size: 12px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 500;
 }
 
@@ -172,9 +176,9 @@ img {
     width: 400px;
     position: absolute;
     left: 2rem;
-    bottom: 5.5rem;
+    bottom: 6rem;
     border-radius: 10px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     color: white;
     font-size: 9px;
     
@@ -187,7 +191,7 @@ img {
     left: 2rem;
     bottom: 3rem;
     border-radius: 10px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     color: white;
     font-size: 12px;
     
@@ -200,12 +204,12 @@ img {
 
 
 .title_middlemain {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 600;
 }
 
 .text_middlemain {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 500;
     font-size: 13px;
     color: lightgrey;
@@ -300,7 +304,7 @@ aside img {
 .title_rightcontent > h4 {
     color: black;
     font-size: 13px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 .text_leftcontent > p,
@@ -308,7 +312,7 @@ aside img {
 .text_rightcontent > p {
     color: lightgray;
     font-size: 13px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 300;
 }
 
@@ -370,8 +374,7 @@ aside img {
  ********/
 
  #site_footer {
-
-    margin: 0.5rem 0;    
+  margin: 0.5rem 0;    
 }
 
 .reference_badge {
@@ -379,7 +382,7 @@ aside img {
 }
 
 .reference_badge > span {
-    font-family: sans-serif;
+   /*  font-family: sans-serif; */
     font-size: 15px;
 }
 
